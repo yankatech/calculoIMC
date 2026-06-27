@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora IMC</title>
+
+    <link rel="stylesheet" href="estiloIMC.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="card">
+            <div id="titulo">
+
+            <h1>Calculadora IMC</h1>
+            </div>
+
+            <label>Peso (kg)</label>
+            <input type="number" id="peso" placeholder="Ex: 60">
+
+
+            <label>Altura (m)</label>
+            <input type="number" id="altura" placeholder="Ex: 1.50">
+
+
+            <button onclick="calcularIMC()">
+                Calcular
+            </button>
+
+
+            <div id="resultado">
+            </div>
+
+        </div>
+
+    </main>
+
+
+<script src="scriptIMC.js"></script>
+
+</body>
+
+</html>
